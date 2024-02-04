@@ -23,6 +23,9 @@ public class program_4 {
         // System.out.println("animal2 is Animal? " + (animal2 instanceof Animal));
         // System.out.println("animal2 is Object? " + (animal2 instanceof Object));
 
+        System.out.println(cat);
+        System.out.println(animal);
+
 
     }
 
@@ -56,6 +59,10 @@ class Animal {
  
     public void sayMeow() {
         System.out.println("Meow! Meow!");
+    }
+
+    public String toString() {
+        return "Cat";
     }
 
   
